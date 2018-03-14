@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+//gets video from state selectedVideo
 const VideoDetail = ({video}) => {
 
     if(!video){

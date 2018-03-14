@@ -1,5 +1,9 @@
 import React from 'react';
 
+
+//video list item is receiving the video and onVideoSelect from VideoList(why are we not referring to props?
+//the onClick event with a callback function to onVideoSelect which passes the video object passed down from VideoList
+//I think
 const VideoListItem = ({video, onVideoSelect}) => {
     const imageUrl = video.snippet.thumbnails.default.url;
     return (
